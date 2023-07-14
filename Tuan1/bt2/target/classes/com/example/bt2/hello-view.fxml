@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.bt2.HelloController">
+    <HBox alignment="CENTER">
+        <Label text="Dollar: "/>
+        <TextField fx:id="dollar"/>
+    </HBox>
+    <HBox alignment="CENTER">
+        <Button onAction="#convertMoney" text="Chuyển Đổi"/>
+    </HBox>
+</VBox>
